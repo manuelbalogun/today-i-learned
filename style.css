@@ -55,9 +55,9 @@ h1 {
   text-align: center;
 }
 
-/* .vote-button {
+.vote-button {
   margin-left: auto;
-} */
+}
 
 .tag {
   text-transform: uppercase;
