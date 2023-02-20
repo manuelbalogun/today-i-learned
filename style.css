@@ -5,7 +5,10 @@
 }
 
 body {
+  font-family: "Sono", sans-serif;
   background-color: #292524;
+  color: white;
+  padding: 40px;
 }
 
 h1 {
@@ -26,11 +29,14 @@ h1 {
   font-family: "Sono", sans-serif;
   color: #fafaf9;
   background-color: #44403c;
+  padding: 16px 24px;
+  margin-bottom: 16px;
 }
 
 .fact-form {
   background-color: #44403c;
   margin-bottom: 40px;
+  padding: 16px 40px;
 }
 
 .tag {
