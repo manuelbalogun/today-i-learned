@@ -54,8 +54,8 @@ h1 {
   gap: 16px;
 }
 
-fact.p {
-  max-width: 50%;
+.fact p {
+  max-width: 60%;
 }
 
 .fact-form {
