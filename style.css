@@ -42,6 +42,10 @@ h1 {
   background-color: #44403c;
   padding: 16px 24px;
   margin-bottom: 16px;
+  letter-spacing: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .fact-form {
@@ -49,6 +53,10 @@ h1 {
   margin-bottom: 40px;
   padding: 16px 40px;
   text-align: center;
+}
+
+.vote-button {
+  margin-left: auto;
 }
 
 .tag {
