@@ -20,6 +20,14 @@ h1 {
 
 .header {
   margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
 }
 
 .fact {
