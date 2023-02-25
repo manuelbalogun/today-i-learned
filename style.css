@@ -84,7 +84,7 @@ h1 {
   display: flex;
   align-items: center;
   gap: 16px;
-  padding: 16px 32px;
+  padding: 24px 32px;
 }
 
 .fact-form input,
@@ -95,6 +95,48 @@ h1 {
   color: inherit;
   font-family: inherit;
   background-color: #78716c;
+}
+
+.selectdiv {
+  position: relative;
+  float: left;
+  min-width: 250px;
+}
+
+.selectdiv:after {
+  content: "\f078";
+  font: normal normal normal 16px/1 FontAwesome;
+  color: #d6d3d1;
+  right: 16px;
+  top: 6px;
+  height: 34px;
+  padding: 15px 0px 0px 8px;
+  position: absolute;
+  pointer-events: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.selectdiv select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  float: right;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  font-size: 14px;
+  line-height: 1;
+  color: inherit;
+  background-image: none;
+  -ms-word-break: normal;
+  word-break: normal;
 }
 
 .fact-form input:first-child {
