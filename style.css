@@ -83,6 +83,19 @@ h1 {
   border-radius: 16px;
 }
 
+.fact-form input {
+  padding: 16px;
+  border: none;
+  border-radius: 120px;
+  color: inherit;
+  font-family: inherit;
+  background-color: #78716c;
+}
+
+.fact-form input::placeholder {
+  color: #d6d3d1;
+}
+
 .source:link,
 .source:visited {
   color: #a8a29e;
