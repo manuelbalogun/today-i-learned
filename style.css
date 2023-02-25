@@ -104,7 +104,7 @@ h1 {
 }
 
 .selectdiv:after {
-  content: "\f078";
+  content: "\f0d7";
   font: normal normal normal 16px/1 FontAwesome;
   color: #d6d3d1;
   right: 16px;
