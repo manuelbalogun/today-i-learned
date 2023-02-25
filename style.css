@@ -96,15 +96,28 @@ h1 {
 .vote-buttons {
   margin-left: auto;
   display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.vote-button {
-  display: flex;
+  flex-shrink: 0;
   align-items: center;
   gap: 6px;
-  padding: 4px 8px;
+}
+
+.vote-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  border: none;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: inherit;
+  color: inherit;
+  background-color: #57534e;
+}
+
+.vote-buttons button:hover {
+  background-color: #292524;
 }
 
 .tag {
@@ -112,7 +125,9 @@ h1 {
   font-size: 14px;
   font-family: "Coiny", cursive;
   color: #fafaf9;
-  padding: 4px 10px 2px 10px;
+  padding: 5px 10px 1px;
+  cursor: pointer;
+  border-radius: 100px;
 }
 
 ul {
@@ -130,6 +145,7 @@ ul {
   border: none;
   border-radius: 200px;
   transition: 0.4s;
+  cursor: pointer;
 }
 
 .btn:hover {
