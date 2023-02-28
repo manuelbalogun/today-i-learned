@@ -283,8 +283,8 @@ ul {
 
 @media (max-width: 460px) {
   .logo img {
-    height: 32px;
-    width: 32px;
+    height: 36px;
+    width: 36px;
   }
 
   .logo h1 {
@@ -298,8 +298,8 @@ ul {
 
 @media (max-width: 406px) {
   .logo img {
-    height: 28px;
-    width: 28px;
+    height: 32px;
+    width: 32px;
   }
 
   .logo h1 {
@@ -337,7 +337,7 @@ ul {
   .header {
     flex-direction: column;
     align-items: flex-start;
-    gap: 40px;
+    gap: 32px;
   }
 
   .header .btn-large {
