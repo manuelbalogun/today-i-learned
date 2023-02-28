@@ -18,6 +18,10 @@ body {
 }
 
 @media (max-width: 900px) {
+  body {
+    padding: 32px 20px;
+  }
+
   .main {
     grid-template-columns: 1fr;
   }
