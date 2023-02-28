@@ -17,16 +17,6 @@ body {
   gap: 40px;
 }
 
-@media (max-width: 900px) {
-  body {
-    padding: 32px 20px;
-  }
-
-  .main {
-    grid-template-columns: 1fr;
-  }
-}
-
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -35,51 +25,6 @@ body {
 .logo img {
   height: 68px;
   width: 68px;
-}
-
-@media (max-width: 576px) {
-  body {
-    padding: 32px 20px;
-  }
-
-  .logo img {
-    height: 48px;
-    width: 48px;
-  }
-
-  .logo h1 {
-    font-size: 32px;
-  }
-}
-
-@media (max-width: 460px) {
-  .logo img {
-    height: 32px;
-    width: 32px;
-  }
-
-  .logo h1 {
-    font-size: 28px;
-  }
-
-  .header .btn-large {
-    width: 100%;
-  }
-}
-
-@media (max-width: 406px) {
-  .logo img {
-    height: 28px;
-    width: 28px;
-  }
-
-  .logo h1 {
-    font-size: 22px;
-  }
-
-  .header .btn-large {
-    width: 100%;
-  }
 }
 
 aside {
@@ -140,18 +85,6 @@ h1 {
 
 .fact p {
   max-width: 60%;
-}
-
-@media (max-width: 1200px) {
-  .fact {
-    flex-direction: column;
-    gap: 16px;
-    align-items: flex-start;
-  }
-
-  .fact p {
-    max-width: 100%;
-  }
 }
 
 .fact-form {
@@ -324,7 +257,7 @@ ul {
 
 @media (max-width: 1080px) {
   body {
-    padding: 32px 48px;
+    padding: 32px 40px;
   }
 
   .fact-form {
@@ -347,5 +280,68 @@ ul {
 
   .selectdiv {
     min-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo img {
+    height: 48px;
+    width: 48px;
+  }
+
+  .logo h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 460px) {
+  .logo img {
+    height: 32px;
+    width: 32px;
+  }
+
+  .logo h1 {
+    font-size: 28px;
+  }
+
+  .header .btn-large {
+    width: 100%;
+  }
+}
+
+@media (max-width: 406px) {
+  .logo img {
+    height: 28px;
+    width: 28px;
+  }
+
+  .logo h1 {
+    font-size: 22px;
+  }
+
+  .header .btn-large {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    padding: 32px 24px;
+  }
+
+  .main {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1200px) {
+  .fact {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .fact p {
+    max-width: 100%;
   }
 }
