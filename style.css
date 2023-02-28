@@ -343,4 +343,8 @@ ul {
   .header .btn-large {
     margin-left: auto;
   }
+
+  .logo {
+    align-items: center;
+  }
 }
