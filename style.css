@@ -34,6 +34,10 @@ body {
 }
 
 @media (max-width: 576px) {
+  body {
+    padding: 32px 20px;
+  }
+
   .logo img {
     height: 48px;
     width: 48px;
@@ -60,10 +64,6 @@ body {
 }
 
 @media (max-width: 406px) {
-  body {
-    padding: 32px 20px;
-  }
-
   .logo img {
     height: 28px;
     width: 28px;
